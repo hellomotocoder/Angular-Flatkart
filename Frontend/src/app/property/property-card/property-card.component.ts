@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 
 @Component({
@@ -8,10 +8,8 @@ import { Component } from "@angular/core";
 })
 export class PropertyCardComponent{
 property1 ="type inference[automatic] is here"
-property2:string = "strict type check added"
-Property : any = {
-  "id": 1,
-  typeofp: "Home",
-  cost: 12000
-}
+  property2: string = "strict type check added"
+
+  @Input()
+  property: any
 }
