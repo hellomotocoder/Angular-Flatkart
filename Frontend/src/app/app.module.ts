@@ -1,24 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { PropertyCardComponent} from './property/property-card/property-card.component';
-
+import { PropertyCardComponent } from './property/property-card/property-card.component';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { PropertyListComponent } from './property/property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FormsModule } from '@angular/forms';
+import { HousingService } from './services/housing.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     PropertyCardComponent,
     PropertyListComponent,
-      NavBarComponent
-   ],
-  imports: [
-    BrowserModule,
-    FormsModule
+    NavBarComponent,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, FormsModule, HttpClientModule],
+  providers: [HousingService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
