@@ -1,92 +1,128 @@
 [
   {
     "id": 1,
+    "sellRent": 1,
     "typeofp": "Home",
-    "cost": 12770
+    "cost": 99999,
+    "image": "prop1"
   },
   {
     "id": 2,
+    "sellRent": 1,
     "typeofp": "Flat",
-    "cost": 65000
+    "cost": 21212,
+    "image": "prop2"
   },
   {
     "id": 3,
+    "sellRent": 1,
     "typeofp": "Appartment",
-    "cost": 99000
+    "cost": 45664,
+    "image": "prop3"
   },
   {
     "id": 1,
+    "sellRent": 1,
     "typeofp": "Home",
-    "cost": 12770
+    "cost": 566,
+    "image": "prop1"
   },
   {
     "id": 2,
+    "sellRent": 2,
     "typeofp": "Flat",
-    "cost": 65000
+    "cost": 656565,
+    "image": "prop2"
   },
   {
     "id": 3,
+    "sellRent": 2,
     "typeofp": "Appartment",
-    "cost": 99000
+    "cost": 323232,
+    "image": "prop3"
   },
   {
     "id": 1,
+    "sellRent": 2,
     "typeofp": "Home",
-    "cost": 12770
+    "cost":43434 ,
+    "image": "prop1"
   },
   {
     "id": 2,
+    "sellRent": 2,
     "typeofp": "Flat",
-    "cost": 65000
+    "cost": 23432,
+    "image": "prop2"
   },
   {
     "id": 3,
+    "sellRent": 2,
     "typeofp": "Appartment",
-    "cost": 99000
+    "cost":4234324 ,
+    "image": "prop3"
   },
   {
     "id": 1,
+    "sellRent": 2,
     "typeofp": "Home",
-    "cost": 12770
+    "cost": 234325,
+    "image": "prop1"
   },
   {
     "id": 2,
+    "sellRent": 2,
     "typeofp": "Flat",
-    "cost": 65000
+    "cost":455 ,
+    "image": "prop2"
   },
   {
     "id": 3,
+    "sellRent": 2,
     "typeofp": "Appartment",
-    "cost": 99000
+    "cost":65565 ,
+    "image": "prop3"
   },
   {
     "id": 1,
+    "sellRent": 2,
     "typeofp": "Home",
-    "cost": 12770
+    "cost":565643 ,
+    "image": "prop1"
   },
   {
     "id": 2,
+    "sellRent": 2,
     "typeofp": "Flat",
-    "cost": 65000
+    "cost":65656 ,
+    "image": "prop2"
   },
   {
     "id": 3,
+    "sellRent": 1,
     "typeofp": "Appartment",
-    "cost": 99000
+    "cost": 65656,
+    "image": "prop3"
   },
   {
     "id": 1,
+    "sellRent": 1,
     "typeofp": "Home",
-    "cost": 12770
+    "cost": 63656,
+    "image": "prop1"
   },
   {
     "id": 2,
+    "sellRent": 1,
     "typeofp": "Flat",
-    "cost": 65000
+    "cost": 5636,
+    "image": "prop2"
   },
   {
     "id": 3,
+    "sellRent": 1,
     "typeofp": "Appartment",
-    "cost": 99000
+    "cost": 6363653,
+    "image": "prop3"
   }
 ]
