@@ -1,0 +1,10 @@
+<p>books works!</p>
+<br /><br />
+<button class="btn btn-primary" (click)="valid()" routerLink="/pdf/books">
+  Open Bookshelf
+  <i class="fa-thin fa-books"></i>
+</button>
+<br /><br />
+<div *ngIf="chkOpen">
+  <iframe src="https://pdfdrive.to/en" height="3450px" width="1300px"></iframe>
+</div>

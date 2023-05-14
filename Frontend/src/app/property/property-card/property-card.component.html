@@ -1,7 +1,16 @@
 <div class="card">
   <div class="card-wrapper">
     <div class="card-body p-2">
-      <img class="card-propImg" src="assets/Images/{{ property.image }}.jpg" />
+      <img
+        *ngIf="property.image"
+        class="card-propImg"
+        src="assets/Images/{{ property.image }}.jpg"
+      />
+      <img
+        *ngIf="!property.image"
+        class="card-propImg"
+        src="assets/Images/house_defaults.png"
+      />
       <ul class="list-inline text-center member-icons card-animation">
         <li class="list-inline-item">
           <button
@@ -17,9 +26,9 @@
           </button>
         </li>
       </ul>
-      <h2>{{ property.id }}</h2>
-      <h3>{{ property.typeofp }}</h3>
-      <h3>{{ property.cost }}</h3>
+      <h5>Id: {{ property.id }}</h5>
+      <h5>Type: {{ property.typeofp }}</h5>
+      <h5>Cost: {{ property.cost }}</h5>
     </div>
   </div>
 </div>

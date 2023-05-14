@@ -11,5 +11,5 @@ export class PropertyCardComponent {
   property2: string = 'strict type check added';
 
   @Input()
-  property: any;
+  property!: IProperty;
 }

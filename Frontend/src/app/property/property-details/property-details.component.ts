@@ -25,4 +25,7 @@ export class PropertyDetailsComponent implements OnInit {
     this.propertyId++;
     this.router.navigate(['property-details', this.propertyId]);
   }
+  onBack() {
+    this.router.navigate(['/']);
+  }
 }

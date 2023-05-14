@@ -1,11 +1,15 @@
 <p>property-details works! id-> {{ propertyId }}</p>
 <br />
 <button class="btn btn-primary" (click)="onNext()">Next</button>
-<br />
-<br />
+&nbsp;&nbsp;
+<button class="btn btn-primary" (click)="onBack()">Back</button>
+<br /><br />
 <button class="btn btn-primary" routerLink="/property-details/1">1</button
 >&nbsp;
 <button class="btn btn-primary" routerLink="/property-details/2">2</button
 >&nbsp;
 <button class="btn btn-primary" routerLink="/property-details/3">3</button
 >&nbsp;
+<button class="btn btn-primary" [routerLink]="['/property-details', 4]">
+  4
+</button>
